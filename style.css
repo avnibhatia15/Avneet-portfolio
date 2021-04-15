@@ -1,0 +1,17 @@
+body{
+    color:red;
+}
+/* <But to apply this we have to create a link in index.html inside head(if whole document)> */
+
+h1{
+    color:blue;
+}
+/* <This is selector. CSS way3> */
+
+#lib-header{
+    color:gray;
+}
+
+.para{
+    color:pink;
+}

@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- <CSS way1:style tag
+        <style>
+            body{
+                color:red;
+            }
+        </style> -->
+        <!--CSS way3:creating an ext link -->
+        <link href ="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <!-- <CSS way2:style attribute> -->
+    <h1 style="color:red">tanay's component library</h1>
+    <!-- <CSS way5:class,it can be accessed using .class_name in style.css-->
+    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
 
     <hr >
 
 
     <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
+    <!--  CSS way4:id -->
+    <h1 id="lib">This is the biggest heading</h1>
+    <h2 class="para">This is the second biggest</h2>
     <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
     <small>This is relatively smaller text</small> 
 
@@ -89,7 +99,7 @@
     <h2>@header</h2>
 
     <header>
-        <img src="images/hero.svg" />
+        <img src="images/hero.svg"
         <h1>heading inside header</h1>
     </header>
 
