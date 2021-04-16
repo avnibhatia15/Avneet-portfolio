@@ -2,7 +2,8 @@
 
 /* <This is a CSS variable which we are defining> */
 :root{
-    --primary-color:#7C3AED ;
+    --primary-color:#7C3AED;
+    --dark-gray:#6B7280 ;
 }
 
 body{
@@ -80,4 +81,25 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/**header**/
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    text-align:center;
+    padding: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-highlighted{
+    color: var(--primary-color);
 }
