@@ -148,7 +148,7 @@ hr {
     padding-inline-start: 0px;
 }
 
-@media screen and(max-width:750px){
+@media only screen and(max-width:750px){
     .list-non-bullet{
         padding: 0;
     }
