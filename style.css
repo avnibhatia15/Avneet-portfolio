@@ -16,6 +16,13 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* space  */
+
+.margin-space{
+    margin:2rem;
+    padding: 1rem;
+}
+
 /**container**/
 .container {
     padding-left: 1rem;
@@ -32,7 +39,7 @@ hr {
 /* <text decoration none is for removing the underline in the link> */
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
 }
 
 .link-primary {
@@ -88,7 +95,7 @@ hr {
 /**header**/
 .hero {
     padding: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
